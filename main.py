@@ -1,6 +1,5 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-# from tensorflow.keras.models import load_model
 import tensorflow as tf
 from PIL import Image
 import numpy as np
@@ -8,7 +7,6 @@ import io
 import json
 import os
 import gdown
-import tensorflow as tf
 
 # Model 1
 url1 = "https://drive.google.com/uc?id=1bTqxlRXHfPpcA1U2FK9rV72Q7eQuURCU"
@@ -23,7 +21,7 @@ print("Model 1 loaded")
 
 
 # Model 2
-url2 = "https://drive.google.com/file/d/1DGnFfpa-rsmJ65d0elUmCZiU3G1DiFvW/view?usp=sharing"
+url2 = "https://drive.google.com/uc?id=1DGnFfpa-rsmJ65d0elUmCZiU3G1DiFvW"
 output2 = "Trained_Model_2.keras"
 
 if not os.path.exists(output2):
@@ -122,4 +120,5 @@ async def predict(file: UploadFile = File(...)):
 
     except Exception as e:
         return {"error": str(e)}
+
 
