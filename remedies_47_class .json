@@ -1,0 +1,744 @@
+{
+  "Bottle_gourd___Anthracnose": {
+    "name": "Bottle_gourd___Anthracnose",
+    "description": "Disease caused by Colletotrichum species. It produces dark, sunken spots on leaves, stems, and fruits. The spots may enlarge and cause the leaves to dry and fall prematurely, reducing plant productivity.",
+    "remedies": [
+      "Remove and destroy infected leaves and fruits.",
+      "Apply fungicides such as Mancozeb or Carbendazim.",
+      "Spray Copper oxychloride at recommended doses."
+    ],
+    "precautions": [
+      "Avoid overhead irrigation.",
+      "Do not work in fields when plants are wet.",
+      "Use clean tools to avoid spreading spores"
+    ],
+    "prevention": [
+      "Use disease-free seeds.",
+      "Maintain proper spacing for air circulation.",
+      "Practice crop rotation with non-cucurbit crops"
+    ]
+  },
+
+  "Bottle_gourd___Downey_mildew": {
+    "name": "Bottle_gourd___Downey_mildew",
+    "description": "Downy mildew is a fungal-like disease caused by Pseudoperonospora cubensis. It appears as yellow patches on the upper surface of leaves and grey-purple mold on the underside.",
+    "remedies": [
+        "Spray fungicides such as Metalaxyl, Mancozeb, or Chlorothalonil.",
+        "Remove infected leaves."
+    ],
+    "precautions": [
+        "Avoid excessive humidity in the crop field.",
+        "Water plants early in the morning so leaves dry quickly."
+    ],
+    "prevention": [
+        "Grow resistant varieties.",
+        "Maintain good field sanitation.",
+        "Ensure good air circulation between plants."
+    ]
+  },
+  "Bottle_gourd___fresh_leaf": {
+    "name": "Bottle_gourd___fresh_leaf",
+    "description": "The plant is healthy with no visible disease symptoms. Leaves appear green, fresh, and free from spots or discoloration.",
+    "remedies": [
+        "No treatment required."
+    ],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+
+  "Brinjal___Cercospora Leaf Spot": {
+    "name": "Brinjal___Cercospora Leaf Spot",
+    "description": "Cercospora leaf spot is a fungal disease caused by Cercospora melongenae. It causes small circular brown spots with grey centers on leaves, which may lead to leaf drop and reduced yield.",
+    "remedies": [
+      "Spray Mancozeb or Chlorothalonil fungicide.",
+      "Remove infected plant parts."
+    ],
+    "precautions": [
+      "Avoid overcrowding plants.",
+      "Prevent excessive leaf wetness."
+    ],
+    "prevention": [
+      "Rotate crops with non-solanaceous plants.",
+      "Use disease-free seeds.",
+      "Maintain proper field sanitation."
+    ]
+  },
+  "Brinjal___healthy": {
+    "name": "Brinjal___healthy",
+    "description": "The brinjal plant is healthy with no signs of disease. Leaves are green and show normal growth.",
+    "remedies": [],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  "Capsicum___Bacterial_spot": {
+    "name": "Capsicum___Bacterial_spot",
+    "description": "Bacterial spot is caused by Xanthomonas bacteria. It appears as small dark spots on leaves and fruits, which may enlarge and cause defoliation.",
+    "remedies": [
+      "Spray Copper-based bactericides.",
+      "Remove infected plant debris."
+    ],
+    "precautions": [
+      "Avoid overhead watering.",
+      "Disinfect tools after use."
+    ],
+    "prevention": [
+      "Use resistant varieties.",
+      "Practice crop rotation.",
+      "Use certified disease-free seeds."
+    ]
+  },
+  "Capsicum___healthy": {
+    "name": "Capsicum___healthy",
+    "description": "The capsicum plant is healthy with vibrant green leaves and no disease symptoms.",
+    "remedies": ["Continue good farming practices."],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  "Cassava___bacterial_blight": {
+    "name": "Cassava___bacterial_blight",
+    "description": "Cassava bacterial blight is caused by Xanthomonas axonopodis. It leads to leaf wilting, yellowing, and dieback of shoots, which can significantly reduce yield.",
+    "remedies": [
+      "Remove infected plants.",
+      "Apply copper-based bactericides."
+    ],
+    "precautions": [
+      "Avoid using infected cuttings for planting.",
+      "Avoid working in wet fields."
+    ],
+    "prevention": [
+      "Use resistant cassava varieties.",
+      "Plant disease-free cuttings.",
+      "Practice crop rotation."
+    ]
+  },
+  "Cassava___brown_streak_disease": {
+    "name": "Cassava___brown_streak_disease",
+    "description": "Cassava brown streak disease is a viral disease that causes yellow patches on leaves and brown streaks in stems and roots, leading to root rot and yield loss.",
+    "remedies": [
+        "Remove and destroy infected plants.",
+        "Control whitefly vectors."
+    ],
+    "precautions": [
+        "Monitor fields regularly for early symptoms.",
+        "Avoid planting infected cuttings."
+    ],
+    "prevention": [
+        "Use virus-free planting material.",
+        "Plant resistant varieties.",
+        "Control insect vectors."
+    ]
+  },
+
+  "Cassava___green_mottle": {
+    "name": "Cassava___green_mottle",
+    "description": "Green mottle disease causes irregular green and yellow mottling on cassava leaves. It affects plant growth and reduces crop yield.",
+    "remedies": [
+        "Remove infected plants.",
+        "Control insect vectors such as whiteflies."
+    ],
+    "precautions": [
+      "Monitor plants regularly",
+      "Avoid spreading infected plant materials."
+    ],
+    "prevention": [
+      "Use certified disease-free cuttings.",
+      "Maintain proper field sanitation."
+    ]
+  },
+  "Cassava___healthy": {
+    "name": "Cassava___healthy",
+    "description": "Cassava plants are healthy and show normal leaf color and growth without disease symptoms.",
+    "remedies": [
+        "No treatment required."
+    ],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  "Cassava___mosaic_disease": {
+    "name": "Cassava___mosaic_disease",
+    "description": "Cassava mosaic disease is caused by viruses transmitted by whiteflies. It causes mosaic patterns, leaf distortion, and stunted plant growth.",
+    "remedies": [
+        "Remove infected plants immediately.",
+        "Control whiteflies using insecticides."
+    ],
+    "precautions": [
+      "Avoid planting infected cuttings.",
+      "Monitor whitefly populations."
+    ],
+    "prevention": [
+        "Use resistant cassava varieties.",
+        "Plant virus-free cuttings.",
+        "Maintain field hygiene."
+    ]
+  },
+
+  "Coffee___healthy": {
+    "name": "Coffee___healthy",
+    "description": "The coffee plant is healthy with green leaves and normal growth. There are no visible symptoms of disease or pest damage.",
+    "remedies": [
+        "No treatment required."
+    ],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  "Coffee___red_spider_mite": {
+    "name": "Coffee___red_spider_mite",
+    "description": "Red spider mites are tiny pests that feed on the underside of coffee leaves. They cause yellow speckles, leaf discoloration, and webbing, leading to reduced photosynthesis.",
+    "remedies": [
+        "Spray neem oil or miticides.",
+        "Wash leaves with water to remove mites."
+    ],
+    "precautions": [
+      "Avoid excessive use of chemical pesticides that kill beneficial insects.",
+      "Maintain adequate humidity."
+    ],
+    "prevention": [
+        "Regularly inspect plants.",
+        "Encourage natural predators such as lady beetles."
+    ]
+  },
+
+  "Coffee___rust": {
+    "name": "Coffee___rust",
+    "description": "Coffee rust is a fungal disease caused by Hemileia vastatrix. It produces orange powder-like spots on the underside of leaves, leading to defoliation and yield loss.",
+    "remedies": [
+        "Apply fungicides such as Copper fungicides or Hexaconazole.",
+        "Remove infected leaves."
+    ],
+    "precautions": [
+      "Avoid dense planting.",
+      "Ensure proper air circulation."
+    ],
+    "prevention": [
+        "Grow rust-resistant varieties.",
+        "Maintain proper shade and spacing."
+    ]
+  },
+  "Cucumber___Bacterial_Wilt": {
+    "name": "Cucumber___Bacterial_Wilt",
+    "description": "Bacterial wilt is caused by Erwinia tracheiphila and transmitted by cucumber beetles. Infected plants wilt suddenly and eventually die.",
+    "remedies": [
+        "Remove and destroy infected plants.",
+        "Control cucumber beetles with insecticides."
+    ],
+    "precautions": [
+      "Monitor insect populations.",
+      "Avoid planting cucumbers near infected plants."
+    ],
+    "prevention": [
+        "Use resistant varieties.",
+        "Apply row covers to prevent beetle infestation."
+    ]
+  },
+
+  "Cucumber___Gummy_Stem_Blight": {
+    "name": "Cucumber___Gummy_Stem_Blight",
+    "description": "A fungal disease caused by Didymella bryoniae. It causes brown lesions on stems and leaves with gummy exudates.",
+    "remedies": [],
+    "precautions": [
+      "Avoid overhead watering.",
+      "Maintain proper plant spacing."
+    ],
+    "prevention": [
+      "Use disease-free seeds.",
+      "Rotate crops regularly."
+    ]
+  },
+  "Cucumber___Healthy_leaf": {
+    "name": "Cucumber___Healthy_leaf",
+    "description": "No disease detected.",
+    "remedies": [],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  "Grape___Leaf_blight": {
+    "name": "Grape___Leaf_blight",
+    "description": "Leaf blight causes brown lesions on grape leaves which eventually lead to leaf drying and reduced plant vigor.",
+    "remedies": [
+        "Apply fungicides such as Mancozeb or Copper fungicide.",
+        "Remove infected leaves."
+    ],
+    "precautions": [
+      "Avoid excessive irrigation.",
+      "Maintain proper plant spacing."
+    ],
+    "prevention": [
+        "Ensure good air circulation.",
+        "Practice proper pruning."
+    ]
+  },
+
+  "Grape___black_measles": {
+    "name": "Grape___black_measles",
+    "description": "Black measles (Esca disease) causes dark spots on leaves and fruits. It affects vine health and reduces yield.",
+    "remedies": [
+        "Remove infected branches.",
+        "Apply fungicides if necessary."
+    ],
+    "precautions": [
+      "Avoid pruning during wet conditions.",
+      "Use sterilized tools."
+    ],
+    "prevention": [
+        "Maintain vineyard hygiene.",
+        "Remove infected wood immediately."
+    ]
+  },
+  "Grape___black_rot": {
+    "name": "Grape___black_rot",
+    "description": "Black rot is a fungal disease causing brown spots on leaves and black shriveled fruits.",
+    "remedies": [
+        "Spray fungicides like Mancozeb or Myclobutanil.",
+        "Remove infected fruits."
+    ],
+    "precautions": [
+      "Avoid wetting leaves during irrigation."
+    ],
+    "prevention": [
+        "Maintain good vineyard sanitation.",
+        "Ensure proper sunlight and airflow"
+    ]
+  },
+  "Grape___healthy": {
+    "name": "Grape___healthy",
+    "description": "No disease detected.",
+    "remedies": [],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  
+  "Lemon_Bacterial_Blight": {
+    "name": "Lemon_Bacterial_Blight",
+    "description": "A bacterial disease causing leaf spots, yellowing, and twig dieback in lemon plants.",
+    "remedies": [
+        "Spray Copper bactericides",
+        "Remove infected leaves."
+    ],
+    "precautions": [
+        "Avoid overcrowding plants.",
+        "Do not water leaves directly.",
+        "Disinfect pruning tools."
+    ],
+    "prevention": [
+        "Use disease-free seedlings.",
+        "Maintain orchard sanitation."
+    ]
+  },
+  "Lemon_Citrus_Canker": {
+    "name": "Lemon_Citrus_Canker",
+    "description": "Citrus canker causes raised corky lesions on leaves, stems, and fruits, reducing fruit quality.",
+    "remedies": [
+        "Remove infected leaves.",
+        "Apply fungicides."
+    ],
+    "precautions": [
+      "Avoid movement of infected plant materials."
+    ],
+    "prevention": [
+        "Plant resistant varieties.",
+        "Maintain proper orchard hygiene."
+    ]
+  },
+
+  "Lemon___Curl_Virus": {
+    "name": "Lemon___Curl_Virus",
+    "description": "Leaf curl virus causes leaf curling, distortion, and stunted growth in lemon plants.",
+    "remedies": [
+        "Remove infected leaves immediately.",
+        "Control insect vectors such as aphids."
+    ],
+    "precautions": [
+      "Do not touch infected plants unnecessarily.",
+      "Monitor insect populations."
+    ],
+    "prevention": [
+        "Use certified disease-free seeds.",
+        "Practice crop rotation.",
+        "Improve field drainage."
+    ]
+  },
+
+  "Lemon___Sooty_Mould": {
+    "name": "Lemon___Sooty_Mould",
+    "description": "Sooty mold appears as black fungal growth on leaves due to honeydew secreted by insects like aphids.",
+    "remedies": [
+        "Control insect pests.",
+        "Remove infected leaves.",
+        "Wash leaves with mild soap solution."
+    ],
+    "precautions": [
+      "Avoid excess nitrogen fertilizer.",
+      "Monitor older leaves frequently."
+    ],
+    "prevention": [
+      "Maintain proper pest management practices.",
+      "Use resistant varieties.",
+      "Ensure proper plant spacing."
+    ]
+  },
+  "Lemon___healthy": {
+    "name": "Lemon___healthy",
+    "description": "No disease detected.",
+    "remedies": [],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves weekly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  "Onion___Alternaria_D": {
+    "name": "Onion___Alternaria_D",
+    "description": "Alternaria disease causes dark concentric rings on onion leaves leading to leaf drying.",
+    "remedies": [
+        "Immediately remove infected plants.",
+        "Apply fungicides such as Mancozeb."
+    ],
+    "precautions": [
+        "Avoid excessive irrigation.",
+        "Do not irrigate late in the evening."
+    ],
+    "prevention": [
+        "Use certified seedlings.",
+        "Maintain proper spacing.",
+        "Monitor during cool, wet weather."
+    ]
+  },
+  "Onion___Healthy": {
+    "name": "Onion___Healthy",
+    "description": "The onion plant is healthy and shows no signs of disease.",
+    "remedies": [
+        "No treatment required."
+    ],
+    "precautions": [
+        "Monitor plants regularly.",
+        "Avoid overcrowding plants."
+    ],
+    "prevention": [
+        "Ensure proper air circulation.",
+        "Avoid overhead watering.",
+        "Maintain good soil fertility and irrigation."
+    ]
+  },
+  "Onion___Purple_blotch": {
+    "name": "Onion___Purple_blotch",
+    "description": "Purple blotch causes purple lesions on onion leaves which enlarge and cause leaf death.",
+    "remedies": [
+        "Remove infected leaves.",
+        "Spray fungicides like Chlorothalonil or Mancozeb.",
+        "Mulch soil surface."
+    ],
+    "precautions": [
+        "Avoid splashing water on leaves.",
+        "Avoid overcrowding."
+    ],
+    "prevention": [
+        "Remove plant debris after harvest.",
+        "Crop rotation and field sanitation."
+    ]
+  },
+  "Onion___Virosis-D": {
+    "name": "Onion___Virosis-D",
+    "description": "Viral disease causing yellow streaks, stunted growth, and reduced bulb size.",
+    "remedies": [
+        "Remove infected plants",
+        "Control insect vectors."
+    ],
+    "precautions": [
+        "Monitor leaf undersides.",
+        "Avoid excessive pesticide use that kills beneficial insects."
+    ],
+    "prevention": [
+        "Maintain adequate humidity.",
+        "Use virus-free seeds."
+    ]
+  },
+  "Potato___pests": {
+    "name": "Potato___pests",
+    "description": "Pests such as aphids, beetles, and caterpillars attack potato plants causing leaf damage and reduced yield.",
+    "remedies": [
+        "Use insecticides or neem oil sprays.",
+        "Remove infected plant parts."
+    ],
+    "precautions": [
+        "Monitor pest populations regularly.",
+        "Improve air circulation."
+    ],
+    "prevention": [
+        "Encourage beneficial insects.",
+        "Maintain field hygiene."
+    ]
+  },
+  "Rice___bacterial_blight": {
+    "name": "Rice___bacterial_blight",
+    "description": "A bacterial disease causing yellowing and drying of rice leaves.",
+    "remedies": [
+        "Apply bactericides.",
+        "Remove infected plants."
+    ],
+    "precautions": [
+        "Avoid excessive nitrogen fertilizers."
+    ],
+    "prevention": [
+        "Install insect-proof nets.",
+        "Grow resistant rice varieties."
+    ]
+  },
+  "Rice___blast": {
+    "name": "Rice___blast",
+    "description": "Rice blast is a fungal disease causing diamond-shaped lesions on leaves.",
+    "remedies": [
+        "Apply fungicides such as Tricyclazole.",
+        "Disinfect tools after use."
+    ],
+    "precautions": [
+        "Avoid excessive nitrogen application.",
+        "Do not reuse contaminated soil."
+    ],
+    "prevention": [
+        "Use certified virus-free seeds.",
+        "Wash hands before handling plants.",
+        "Rotate crops."
+    ]
+  },
+  "Rice___brown_spot": {
+    "name": "Rice___brown_spot",
+    "description": "Brown spot causes circular brown lesions on rice leaves.",
+    "remedies": [
+        "Apply fungicides such as Mancozeb",
+        "Disinfect tools after use."
+    ],
+    "precautions": [
+        "Maintain balanced fertilization.",
+        "Do not reuse contaminated soil."
+    ],
+    "prevention": [
+        "Use certified virus-free seeds.",
+        "Wash hands before handling plants.",
+        "Rotate crops."
+    ]
+  },
+  "Rice___tungro": {
+    "name": "Rice___tungro",
+    "description": "Tungro is a viral disease transmitted by leafhoppers causing yellow-orange discoloration and stunted growth.",
+    "remedies": [
+        "Control insect vectors.",
+        "Disinfect tools after use."
+    ],
+    "precautions": [
+        "Remove infected plants.",
+        "Do not reuse contaminated soil."
+    ],
+    "prevention": [
+        "Use certified virus-free seeds.",
+        "Wash hands before handling plants.",
+        "Plant resistant varieties."
+    ]
+  },
+  "Rose___healthy": {
+    "name": "Rose___healthy",
+    "description": "Rose plant is healthy with green leaves and normal flowering.",
+    "remedies": [
+        "No treatment required."
+    ],
+    "precautions": [
+        "Monitor plants regularly."
+    ],
+    "prevention": [
+        "Maintain proper watering and fertilization."
+    ]
+  },
+  "Rose___rust": {
+    "name": "Rose___rust",
+    "description": "Rust causes orange powdery spots on rose leaves leading to leaf drop.",
+    "remedies": [
+        "Apply fungicides such as Sulfur fungicide."
+    ],
+    "precautions": [
+        "Do not reuse contaminated soil.",
+        "Avoid wet leaves."
+    ],
+    "prevention": [
+        "Ensure proper plant spacing.",
+        "Rotate crops."
+    ]
+  },
+  "Rose___slug_sawfly": {
+    "name": "Rose___slug_sawfly",
+    "description": "Slug sawfly larvae feed on rose leaves causing skeletonized leaves.",
+    "remedies": [
+        "Spray insecticides or neem oil.",
+        "Disinfect tools after use."
+    ],
+    "precautions": [
+        "Inspect plants regularly",
+        "Do not reuse contaminated soil."
+    ],
+    "prevention": [
+        "Use certified virus-free seeds.",
+        "Wash hands before handling plants.",
+        "Encourage natural predators."
+    ]
+  },
+  "Sugercane___healthy": {
+    "name": "Sugercane___healthy",
+    "description": "Sugarcane plant is healthy with strong stems and green leaves.",
+    "remedies": [
+        "No treatment required."
+    ],
+    "precautions": [
+        "Monitor plants regularly."
+    
+    ],
+    "prevention": [
+        "Maintain soil fertility."
+    ]
+  },
+  "Sugercane___mosaic": {
+    "name": "Sugercane___mosaic",
+    "description": "Mosaic virus causes mosaic patterns on sugarcane leaves.",
+    "remedies": [
+        "Remove infected plants."
+    ],
+    "precautions": [
+        "Avoid planting infected setts."
+    ],
+    "prevention": [
+        "Use virus-free planting material."
+    ]
+  },
+  "Sugercane___red_rot": {
+    "name": "Sugercane___red_rot",
+    "description": "Red rot is a fungal disease causing red discoloration inside stems.",
+    "remedies": [
+        "Remove infected plants."
+    ],
+    "precautions": [
+        "Avoid waterlogging."
+    ],
+    "prevention": [
+        "Plant resistant varieties."
+    ]
+  },
+  "Sugercane___rust": {
+    "name": "Sugercane___rust",
+    "description": "Rust disease produces reddish-brown pustules on leaves.",
+    "remedies": [
+        "Apply fungicides."
+    ],
+    "precautions": [
+        "Maintain proper spacing."
+    ],
+    "prevention": [
+        "Use resistant varieties"
+    ]
+  },
+  "Sugercane___yellow_leaf": {
+    "name": "Sugercane___yellow_leaf",
+    "description": "Yellow leaf disease causes yellowing of leaf midrib and reduced growth.",
+    "remedies": [
+        "Remove infected plants."
+    ],
+    "precautions": [
+        "Avoid infected planting material."
+    ],
+    "prevention": [   
+        "Use certified healthy setts."
+    ]
+  },
+  "Watermelon___downy_mildew": {
+    "name": "Watermelon___downy_mildew",
+    "description": "Downy mildew causes yellow spots on leaves with gray mold underneath",
+    "remedies": [
+        "Spray fungicides such as Metalaxyl."
+    ],
+    "precautions": [
+        "Avoid excess humidity."
+    ],
+    "prevention": [
+        "Ensure proper plant spacing."
+    ]
+  },
+
+  "Watermelon___healthy": {
+    "name": "Watermelon___healthy",
+    "description": "No disease detected.",
+    "remedies": [],
+    "precautions": [
+      "Continue regular watering",
+      "Apply balanced fertilizer",
+      "Maintain balanced nutrition."
+    ],
+    "prevention": [
+      "Monitor leaves regularly",
+      "Maintain proper sunlight exposure"
+    ]
+  },
+  "Watermelon___mosaic_virus": {
+    "name": "Watermelon___mosaic_virus",
+    "description": "Mosaic virus causes mottled yellow-green patterns on watermelon leaves and distorted fruits.",
+    "remedies": [
+        "Remove infected plants."
+    ],
+    "precautions": [
+        "Control aphids which spread the virus."
+    ],
+    "prevention": [
+        "Use virus-free seeds.",
+        "Maintain proper pest control."
+    ]
+  }
+
+}
