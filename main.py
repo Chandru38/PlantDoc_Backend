@@ -10,17 +10,28 @@ import os
 import gdown
 import tensorflow as tf
 
-url = "https://drive.google.com/uc?id=1bTqxlRXHfPpcA1U2FK9rV72Q7eQuURCU"
-output = "Trained_Model.keras"
+# Model 1
+url1 = "https://drive.google.com/uc?id=1bTqxlRXHfPpcA1U2FK9rV72Q7eQuURCU"
+output1 = "Trained_Model.keras"
 
-# Download model if it does not exist
-if not os.path.exists(output):
-    print("Downloading model...")
-    gdown.download(url, output, quiet=False)
+if not os.path.exists(output1):
+    print("Downloading model 1...")
+    gdown.download(url1, output1, quiet=False)
 
-print("Loading model...")
-model = tf.keras.models.load_model(output)
-print("Model loaded successfully")
+model1 = tf.keras.models.load_model(output1)
+print("Model 1 loaded")
+
+
+# Model 2
+url2 = "https://drive.google.com/file/d/1DGnFfpa-rsmJ65d0elUmCZiU3G1DiFvW/view?usp=sharing"
+output2 = "Trained_Model_2.keras"
+
+if not os.path.exists(output2):
+    print("Downloading model 2...")
+    gdown.download(url2, output2, quiet=False)
+
+model2 = tf.keras.models.load_model(output2)
+print("Model 2 loaded")
 
 app = FastAPI()
 
@@ -32,20 +43,28 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load model
-# model = tf.keras.models.load_model("Trained_Model.keras")
-print("Model Output Shape:", model.output_shape)
+# Load class indices1
+with open("class_names.json") as f:
+    class_indices1 = json.load(f)
 
-# Load class indices
-with open("class_names.json", "r") as f:
-    class_indices = json.load(f)
+# Reverse mapping1
+index_to_class1 = {v: k for k, v in class_indices1.items()}
 
-# Reverse mapping
-index_to_class = {v: k for k, v in class_indices.items()}
+# Load class indices2
+with open("class_names_2.json") as f:
+    class_indices2 = json.load(f)
 
-# Load remedies
+# Reverse mapping2
+index_to_class2 = {v: k for k, v in class_indices2.items()}
+
+
+# Load remedies1
 with open("remedies_38_class.json", "r") as f:
-    remedies_data = json.load(f)
+    remedies1 = json.load(f)
+
+# Load remedies2
+with open("remedies_47_class.json","r") as f:
+    remedies2 = json.load(f)
 
 
 def preprocess_image(image):
@@ -54,28 +73,46 @@ def preprocess_image(image):
     image = np.expand_dims(image, axis=0)
     return image
 
-
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     try:
         contents = await file.read()
         image = Image.open(io.BytesIO(contents)).convert("RGB")
-
         processed_image = preprocess_image(image)
 
-        predictions = model.predict(processed_image)
-        predicted_index = int(np.argmax(predictions))
-        confidence = float(np.max(predictions))
+        # Model 1 prediction
+        pred1 = model1.predict(processed_image)
+        index1 = int(np.argmax(pred1))
+        confidence1 = float(np.max(pred1))
+        class1 = index_to_class1[index1]
 
-        predicted_class = index_to_class[predicted_index]
+        # Model 2 prediction
+        pred2 = model2.predict(processed_image)
+        index2 = int(np.argmax(pred2))
+        confidence2 = float(np.max(pred2))
+        class2 = index_to_class2[index2]
 
-        remedies = remedies_data.get(predicted_class, {
-            "name": predicted_class,
-            "description": "No detailed information available.",
-            "remedies": [],
-            "precautions": [],
-            "prevention": []
-        })
+        # Choose prediction with higher confidence
+        if confidence1 > confidence2:
+            predicted_class = class1
+            confidence = confidence1
+        else:
+            predicted_class = class2
+            confidence = confidence2
+
+        # Get remedy from correct dataset
+        if predicted_class in remedies1:
+            remedies = remedies1[predicted_class]
+        elif predicted_class in remedies2:
+            remedies = remedies2[predicted_class]
+        else:
+            remedies = {
+                "name": predicted_class,
+                "description": "No detailed information available.",
+                "remedies": [],
+                "precautions": [],
+                "prevention": []
+            }
 
         return {
             "predicted_class": predicted_class,
@@ -84,5 +121,5 @@ async def predict(file: UploadFile = File(...)):
         }
 
     except Exception as e:
-
         return {"error": str(e)}
+
